@@ -1,0 +1,39 @@
+(2) <!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>front</title>
+</head>
+<body>
+    <h1>frango</h1>
+    <h2>frango</h2>
+    <h3>frango</h3>
+    <h4>frango</h4>
+    <h5>frango</h5>
+    <h6>frango</h6>
+</body>
+</html>
+
+
+(1) <!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Prova de Front-end</title>
+    <style>
+        
+        mark {
+            background-color: green;
+            color: white; 
+        }
+    </style>
+</head>
+<body>
+
+    <p>
+        <strong>Hoje</strong> eu <em>estou</em> fazendo a <mark>prova</mark> de <ins>front-end</ins>
+    </p>
+
+</body>
+</html>
