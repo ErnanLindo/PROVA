@@ -37,3 +37,51 @@
 
 </body>
 </html>
+
+(3) <!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Citação com Sigla</title>
+</head>
+<body>
+
+    <blockquote>
+        "Não se mata o delegado, <abbr title="A sigla para Machado de Assis, autor de 'Dom Casmurro'">M.A.</abbr> mata-se o tempo."
+        <br>
+        — <em>Dom Casmurro</em>, Machado de Assis.
+    </blockquote>
+
+</body>
+</html>
+
+(4)<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Listas em HTML</title>
+</head>
+<body>
+
+    <h3>Lista Ordenada (Romanos, iniciando no IV)</h3>
+    <ol type="I" start="4">
+        <li>Primeiro item (IV)</li>
+        <li>Segundo item (V)</li>
+        <li>Terceiro item (VI)</li>
+        <li>Quarto item (VII)</li>
+        <li>Quinto item (VIII)</li>
+    </ol>
+
+    <hr>
+
+    <h3>Lista Não Ordenada (Quadrados)</h3>
+    <ul style="list-style-type: square;">
+        <li>Item A</li>
+        <li>Item B</li>
+        <li>Item C</li>
+        <li>Item D</li>
+        <li>Item E</li>
+    </ul>
+
+</body>
+</html>
