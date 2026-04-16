@@ -1,0 +1,112 @@
+(1) <!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página com Favicon</title>
+
+    <link rel="icon" type="image/x-icon" href="https://cdn-icons-png.flaticon.com/512/2618/2618576.png">
+
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f2f5;
+            color: #333;
+        }
+        .container {
+            text-align: center;
+            padding: 2rem;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        h1 { color: #2e7d32; }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Olhe para a aba do navegador! 🍀</h1>
+        <p>O ícone que você vê lá em cima foi definido via código HTML.</p>
+    </div>
+
+</body>
+</html>
+
+(2) <!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de Imagens em HTML</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+
+        h2 { border-bottom: 2px solid #333; padding-bottom: 5px; }
+
+        
+        .img-centralizada {
+            display: block;
+            margin: 20px auto;
+            border-radius: 10px;
+            width: 50%;
+        }
+
+      
+        .galeria {
+            display: flex;
+            justify-content: space-around;
+            gap: 10px;
+            margin-bottom: 30px;
+        }
+        .galeria img {
+            width: 45%;
+            height: auto;
+            border: 3px solid #fff;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+
+     
+        .img-float {
+            float: left;
+            margin-right: 15px;
+            margin-bottom: 10px;
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 50%;
+        }
+
+        .limpar { clear: both; } 
+    </style>
+</head>
+<body>
+
+    <h2>1. Imagem Centralizada</h2>
+    <p>Esta imagem usa <code>display: block</code> e <code>margin: auto</code> para ficar no meio da página.</p>
+    <img src="https://picsum.photos/400/200" alt="Imagem Centralizada" class="img-centralizada">
+
+    <h2>2. Imagens Lado a Lado</h2>
+    <p>Usando Flexbox para criar uma disposição horizontal equilibrada.</p>
+    <div class="galeria">
+        <img src="https://picsum.photos/300/300?random=1" alt="Galeria 1">
+        <img src="https://picsum.photos/300/300?random=2" alt="Galeria 2">
+    </div>
+
+    <h2>3. Texto Envolvente (Float)</h2>
+    <div class="artigo">
+        <img src="https://picsum.photos/200/200?random=3" alt
+
+(3)  
